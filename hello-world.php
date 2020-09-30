@@ -61,5 +61,38 @@
     {
         echo "\nOur for loop is on iteration: $iterator";
     }
+
+    // Associative array
+    $students = [
+        'Danish' => 'Reading',
+        'Eboka' => 'Reading',
+        'Birm' => 'Watching tennis',
+        'Adolf' => 'Playing Music',
+        'Kenji' => 'Rock climbing',
+        'Fahad' => "Gaming"
+    ];
+
+    // foreach loop
+    // (ARRAY as KEY => VALUE)
+    foreach ( $students as $name => $hobby )
+    {
+        echo "\n - Hi, my name is $name! I like $hobby.";
+    }
+
+    // While loop
+    $i = 12;
+    while ( $i > 2)
+    {
+        echo "\nOur for loop is on iteration: $i";
+        $i --;
+    }
+
+    function addition ( $num1, $num2 )
+    {
+        return $num1 + $num2;
+    }
+
+    echo "\n";
+    echo addition ( 5, 10 );    
 ?>
 
