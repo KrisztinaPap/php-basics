@@ -55,6 +55,11 @@
 
     $myNullVar = NULL;
 
-    
+    // LOOPS!
+
+    for ( $iterator = 0; $iterator < 10; $iterator += 2 )
+    {
+        echo "\nOur for loop is on iteration: $iterator";
+    }
 ?>
 
