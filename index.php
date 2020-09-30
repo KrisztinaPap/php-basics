@@ -15,6 +15,7 @@
 </head>
 <body>
     <h1><?php echo $pageTitle; ?></h1>
+    <?php include './includes/navigation.php'; ?>
 </body>
 </html>
 
