@@ -94,5 +94,10 @@
 
     echo "\n";
     echo addition ( 5, 10 );    
+    echo "\nADDITION RESULT: " . addition ( "23", 3);
+    echo "\nADDITION RESULT: " . addition ( "5hi", 3);
+
+    $myFunctionResult = addition(2, 2);
+    echo "\nResult from variable: $myFunctionResult";
 ?>
 
