@@ -45,5 +45,16 @@
         'name' => 'George',
         'age' => 42
     );
+
+    // Objects
+    $object = new stdClass();
+    $object->name = 'TECHCareers';
+    $object->cohort = 4.2;
+    $object->year = 2020;
+    echo "\n\n$object->name" . ' | ' . $object->cohort . ' | ' . $object->year;
+
+    $myNullVar = NULL;
+
+    
 ?>
 
