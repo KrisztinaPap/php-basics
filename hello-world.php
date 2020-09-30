@@ -8,8 +8,11 @@
     comment */
     echo "Hello World!";
 
-    $studentName = "\nFahad";
+    $studentName = "Fahad";
     echo $studentName;
    
+    $studentName2 = "Atinder";
+    
+    echo "\n\n Two students in TECHCareers are:\n- $studentName\n- $studentName2.";
 ?>
 
