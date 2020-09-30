@@ -14,5 +14,7 @@
     $studentName2 = "Atinder";
     
     echo "\n\n Two students in TECHCareers are:\n- $studentName\n- $studentName2.";
+
+    echo "\n\nThis string is being " . 'concatenated!';
 ?>
 
