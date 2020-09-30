@@ -16,5 +16,34 @@
     echo "\n\n Two students in TECHCareers are:\n- $studentName\n- $studentName2.";
 
     echo "\n\nThis string is being " . 'concatenated!';
+
+    // DATA TYPES
+    // Strings
+    $string1 = 'I\'m a string!';
+    $string2 = 'I\'m also a string!';
+
+    // Integers
+    $int1 = -26;
+    $int2 = 42;
+
+    // Floats / Doubles
+    $float1 = 3.14;
+    $float2 = -29.54;
+
+    // Booleans
+    $bool1 = TRUE;
+    $bool2 = false;
+
+    // Arrays
+    // Indexed arrays
+    $array1 = [ 'First value', 17, 16.8, FALSE ];
+    $array2 = array( 'First value', 17, 16.8, FALSE );
+
+    // Associative arrays
+    $array3 = array(
+        'key' => 'value',
+        'name' => 'George',
+        'age' => 42
+    );
 ?>
 
